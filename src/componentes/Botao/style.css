@@ -1,0 +1,25 @@
+.botao {
+    position: absolute;
+    right: 3%;
+    transform: translatey(-120%);
+    border: none;
+    background: var(--azul);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px 0px var(--azul);
+}
+
+@media screen and (min-width: 767px) {
+    .botao {
+        position: absolute;
+        right: 25%;
+        transform: translatey(-120%);
+        border: none;
+        background: var(--azul);
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        box-shadow: 0 4px 16px 0px var(--azul);
+    }
+}

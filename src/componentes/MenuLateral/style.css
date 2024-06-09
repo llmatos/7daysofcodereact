@@ -1,0 +1,70 @@
+
+
+@media screen and (min-width: 767px) {
+    
+
+    .rodape__desktop {
+        float: left;
+        display: grid;
+        grid-template-columns: auto;
+        background-color: var(--branco);
+        padding-top: 2.5em;
+        padding-bottom: 100%;
+    
+
+        /* border-radius: 15px; */
+    }
+
+    .link__item {
+        text-decoration: none;
+        width: 10em;
+    
+    }
+
+    .consulta {
+        width: 100%;
+        padding: .5em 1em .5em 2em;
+        background-image: url("./assets/Calendarioicone.svg");
+        background-repeat: no-repeat;
+        margin-left: 1em;
+        color: var(--azul);
+        justify-content: center;
+    }
+
+    .cliente {
+        width: 100%;
+        padding: .5em 1em .5em 2em;
+        background-image: url("./assets/clientes-icone.svg");
+        background-repeat: no-repeat;
+        margin-left: 1em;
+        color: var(--preto);
+        margin-top: .5em;
+    }
+
+    .relatorio {
+        width: 100%;
+        padding: .5em 1em .5em 2em;
+        background-image: url("./assets/relatorios-icone.svg");
+        background-repeat: no-repeat;
+        margin-left: 1em;
+        color: var(--preto);
+        margin-top: .5em;
+    }
+
+    .menu {
+        width: 100%;
+        padding: 0em 1em 0.5em 2em;
+        background-image: url("./assets/menu-icone.svg");
+        background-repeat: no-repeat;
+        margin-left: 1em;
+        color: var(--preto);
+        margin-top: .5em;
+        justify-self:auto;
+       
+       
+        
+    }
+
+
+   
+}

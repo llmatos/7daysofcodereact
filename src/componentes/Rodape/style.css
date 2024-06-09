@@ -1,0 +1,32 @@
+
+.rodape {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding-top: 10px;
+
+
+
+}
+
+
+@media screen and (min-width: 767px) {
+    .rodape {
+
+        float: left;
+        display: block;
+        background-color: var(--branco);
+        height: 30 em;
+        border-radius: 15px;
+        /* padding-top: 10em; */
+        display: none;
+
+
+    }
+
+  
+
+  
+  
+}

@@ -1,0 +1,25 @@
+.barra {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 1em;
+    width: 21.98em;
+}
+
+.barra__horario {
+    color: var(--preto);
+}
+
+.barra__status-imagem {
+  margin-right: 20px;
+}
+
+
+
+
+
+@media screen and (min-width: 767px) {
+    .barra {
+        display: none;
+    }
+}
