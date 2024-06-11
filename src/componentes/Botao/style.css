@@ -1,7 +1,8 @@
 .botao {
-    position: absolute;
-    right: 3%;
-    transform: translatey(-120%);
+    position: fixed;
+    right: 4.5%;
+    top: 85%;
+    /* transform: translatey(-120%); */
     border: none;
     background: var(--azul);
     width: 56px;

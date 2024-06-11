@@ -5,6 +5,10 @@
     justify-content: space-around;
     border-radius: 15px;
     padding-top: 10px;
+    position: fixed;
+    top: 93.3%;
+    left: -1%;
+    width: 24.7em;
 
 
 
