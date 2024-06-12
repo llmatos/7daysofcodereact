@@ -24,3 +24,9 @@
         box-shadow: 0 4px 16px 0px var(--azul);
     }
 }
+
+@media screen and (min-width: 1440px){
+    .botao {
+        display: none;
+    }
+}
